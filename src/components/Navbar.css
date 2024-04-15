@@ -1,0 +1,18 @@
+/* components/Navbar.css */
+.Navbar {
+    background-color: #ffc107; /* Bootstrap primary color */
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .Navbar h1 {
+    margin: 0;
+    color: #333;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  
+  .Navbar img {
+    height: 250px; /* You can set the height as needed */
+  }
