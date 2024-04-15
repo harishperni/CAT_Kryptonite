@@ -39,3 +39,44 @@ form button {
   background-color: yellow;
   height: 150px;
 }
+/* App.css */
+
+.results-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the minimum width of each tile */
+  gap: 20px; /* Adjust the gap between tiles */
+}
+
+.structure-tile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/* App.css */
+
+/* Add styles for tiles container */
+.tiles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Add styles for individual tiles */
+.tile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+}
+
+/* Add styles for tile links */
+.tile-link {
+  color: inherit;
+  text-decoration: none;
+}
