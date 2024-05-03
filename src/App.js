@@ -39,7 +39,7 @@ function App() {
     <div className="container">
       <Navbar />
       <div className="App">
-        <h1>Structure Search</h1>
+        <center><h1>Structure Search</h1></center>
         <SearchBar onSubmit={handleSubmit} />
         {error && <p className="error">{error}</p>}
         <div className="filters">
